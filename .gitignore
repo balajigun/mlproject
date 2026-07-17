@@ -148,6 +148,7 @@ activemq-data/
 *.sage.py
 
 # Environments
+mlproject/
 .env
 .envrc
 .venv
@@ -177,6 +178,13 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
 
 # Cython debug symbols
 cython_debug/
